@@ -1,0 +1,20 @@
+{
+  "SalesOrder": {
+    "target": {
+      "object": "SalesOrder",
+      "schema": "DMM260"
+    }
+  },
+  "BusinessPartner": {
+    "target": {
+      "object": "BusinessPartner",
+      "schema": "DMM260"
+    }
+  },
+  "BusinessPartnerContacts": {
+    "target": {
+      "object": "BusinessPartnerContacts",
+      "schema": "DMM260"
+    }
+  }
+}
