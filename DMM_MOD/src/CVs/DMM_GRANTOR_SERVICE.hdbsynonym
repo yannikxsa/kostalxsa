@@ -16,5 +16,11 @@
       "object": "BusinessPartnerContacts",
       "schema": "DMM260"
     }
+  },
+  "SalesOrderItem": {
+    "target": {
+      "object": "SalesOrderItem",
+      "schema": "DMM260"
+    }
   }
 }

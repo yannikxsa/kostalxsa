@@ -43,7 +43,7 @@
     <calculatedViewAttributes/>
     <input node="BusinessPartner"/>
   </calculationView>
-  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_3">
+  <calculationView xsi:type="Calculation:ProjectionView" id="Proj_BPC">
     <viewAttributes>
       <viewAttribute id="TITLE"/>
       <viewAttribute id="FIRST_NAME"/>
@@ -75,7 +75,7 @@
       <mapping xsi:type="Calculation:AttributeMapping" target="PartnerId_1" source="PartnerId"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="PartnerRole_1" source="PartnerRole"/>
     </input>
-    <input node="Projection_3">
+    <input node="Proj_BPC">
       <mapping xsi:type="Calculation:AttributeMapping" target="TITLE_1" source="TITLE"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="FIRST_NAME" source="FIRST_NAME"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="LAST_NAME" source="LAST_NAME"/>
@@ -167,7 +167,7 @@
       <upperLeftCorner x="-7" y="464"/>
       <rectangleSize height="30" width="160"/>
     </shape>
-    <shape expanded="true" modelObjectName="Projection_3" modelObjectNameSpace="CalculationView">
+    <shape expanded="true" modelObjectName="Proj_BPC" modelObjectNameSpace="CalculationView">
       <upperLeftCorner x="-262" y="464"/>
       <rectangleSize height="30" width="160"/>
     </shape>
@@ -177,9 +177,9 @@
     </shape>
     <shape modelObjectName="Projection_2" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
       <upperLeftCorner x="320" y="30"/>
-      <rectangleSize width="136.0234375"/>
+      <rectangleSize width="136"/>
     </shape>
-    <shape modelObjectName="Projection_3" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+    <shape modelObjectName="Proj_BPC" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
       <upperLeftCorner x="620" y="30"/>
       <rectangleSize width="250"/>
     </shape>
@@ -193,7 +193,7 @@
     </shape>
     <shape modelObjectName="Projection_1" modelObjectNameSpace="Join_2" modelObjectType="JoinNodeInput">
       <upperLeftCorner x="620" y="30"/>
-      <rectangleSize width="136.0234375"/>
+      <rectangleSize width="136"/>
     </shape>
   </shapes>
 </layout>

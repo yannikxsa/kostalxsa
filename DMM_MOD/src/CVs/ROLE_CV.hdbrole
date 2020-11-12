@@ -1,0 +1,13 @@
+{
+	"role": {
+		"name": "ROLE_CV",
+		"object_privileges": [
+			{
+				"name": "SALES_CUSTOMER",
+				"type": "VIEW",
+				"privileges": ["SELECT"]
+			}
+		]
+	}
+}
+
